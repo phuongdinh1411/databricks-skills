@@ -1,11 +1,16 @@
 {
-  "marketplace": "databricks-skills",
-  "version": "1.0.0",
-  "description": "Databricks skill pack for Claude Code",
+  "name": "databricks-skills",
+  "owner": {
+    "name": "phuongdinh1411"
+  },
+  "metadata": {
+    "description": "Databricks skill pack for Claude Code",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "databricks-pack",
-      "path": ".",
+      "source": "./",
       "description": "24 production-ready skills for the Databricks Lakehouse Platform — Unity Catalog, Delta Lake, MLflow, Spark SQL, Asset Bundles, and the full REST API.",
       "version": "1.0.0"
     }
